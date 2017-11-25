@@ -1,7 +1,7 @@
 'use strict';
 
 const Alexa = require('alexa-sdk');
-const config = require('./config.json');
+const config = require('./config');
 const handlers = require('./handlers');
 
 exports.handler = function(event, context, callback){

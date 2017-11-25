@@ -60,6 +60,6 @@ typings/
 .env
 
 ### additional ignore
-/src/config.json
+/src/config.js
 /.idea/
 /*.iml

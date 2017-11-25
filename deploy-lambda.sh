@@ -9,4 +9,5 @@ rm artifact.zip
 cd src
 zip -X -r ../artifact.zip *
 cd ..
+
 aws lambda update-function-code --function-name "$LAMBDA_FUNCTION" --zip-file fileb://artifact.zip --profile hackathon
