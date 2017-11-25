@@ -62,3 +62,4 @@ typings/
 ### additional ignore
 /src/config.json
 /.idea/
+/*.iml
